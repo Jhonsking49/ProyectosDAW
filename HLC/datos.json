@@ -1,0 +1,165 @@
+{
+    "data": {
+        "type": "Índice de indisponibilidad",
+        "id": "tra2",
+        "attributes": {
+            "title": "Índice de indisponibilidad",
+            "last-update": "2023-09-14T15:16:49.000+02:00",
+            "description": "Cumulative data as of December 31. For the current year data accumulated to last month due. Service quality indicators for each year are audited in September of the following year."
+        },
+        "meta": {
+            "cache-control": {
+                "cache": "MISS"
+            }
+        }
+    },
+    "included": [
+        {
+            "type": "Programada por mantenimiento preventivo y predictivo",
+            "id": "1760",
+            "groupId": "1",
+            "attributes": {
+                "title": "Programada por mantenimiento preventivo y predictivo",
+                "description": null,
+                "color": "#00b0f0",
+                "type": null,
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 1.23,
+                        "percentage": 0.19585987261146498,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Programada por causas ajenas al mantenimiento",
+            "id": "1761",
+            "groupId": "1",
+            "attributes": {
+                "title": "Programada por causas ajenas al mantenimiento",
+                "description": null,
+                "color": "#92d050",
+                "type": null,
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 1.05,
+                        "percentage": 0.16719745222929938,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "No programada debida a mantenimiento correctivo",
+            "id": "1762",
+            "groupId": "1",
+            "attributes": {
+                "title": "No programada debida a mantenimiento correctivo",
+                "description": null,
+                "color": "#990099",
+                "type": null,
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 0.11,
+                        "percentage": 0.017515923566878984,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "No programada debida a circunstancias fortuitas",
+            "id": "1763",
+            "groupId": "1",
+            "attributes": {
+                "title": "No programada debida a circunstancias fortuitas",
+                "description": null,
+                "color": "#ffdf7f",
+                "type": null,
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 0.01,
+                        "percentage": 0.0015923566878980895,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Causa de fuerza mayor o acciones de terceros",
+            "id": "1764",
+            "groupId": "1",
+            "attributes": {
+                "title": "Causa de fuerza mayor o acciones de terceros",
+                "description": null,
+                "color": "#eaad59",
+                "type": null,
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 1.48,
+                        "percentage": 0.23566878980891723,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Sin clasificar",
+            "id": "1765",
+            "groupId": "1",
+            "attributes": {
+                "title": "Sin clasificar",
+                "description": "Sin clasificar: datos facilitados por otros transportistas pendientes de clasificar.",
+                "color": "#8a0000",
+                "type": null,
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 0,
+                        "percentage": 0,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Indisponibilidad mensual total de la red de transporte",
+            "id": "1766",
+            "groupId": "1",
+            "attributes": {
+                "title": "Indisponibilidad mensual total de la red de transporte",
+                "description": "Total: según lo establecido en el Real Decreto 1955/2000, para el cálculo de la indisponibilidad de la red de transporte no se incluyen las indisponibilidades por causas de fuerza mayor o acciones de terceros.",
+                "color": "#2b2e34",
+                "type": "distinct",
+                "magnitude": null,
+                "composite": false,
+                "last-update": "2023-09-14T15:16:49.000+02:00",
+                "values": [
+                    {
+                        "value": 2.4,
+                        "percentage": 0.3821656050955414,
+                        "datetime": "2023-08-01T00:00:00.000+02:00"
+                    }
+                ]
+            }
+        }
+    ]
+}
